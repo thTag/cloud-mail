@@ -402,7 +402,7 @@ const emailService = {
 			};
 		}
 
-		console.log(sendForm)
+		console.error(sendForm)
 
 		const result = await c.env.email.send(sendForm);
 
