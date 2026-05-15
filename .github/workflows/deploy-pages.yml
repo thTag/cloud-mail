@@ -43,11 +43,13 @@ jobs:
         run: pnpm install
         working-directory: ./mail-vue
 
-      - name: 🛠️ Build Vue app
+      - name: 🛠️ Build Vue app for Pages
         run: pnpm run build
         working-directory: ./mail-vue
         env:
           VITE_STATIC_URL: /cloud-mail/
+          VITE_OUT_DIR: dist
+          VITE_BASE_URL: /cloud-mail/api
 
       - name: 📤 Upload artifact
         uses: actions/upload-pages-artifact@v4
