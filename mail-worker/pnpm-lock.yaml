@@ -21,8 +21,8 @@ importers:
         specifier: ^0.45.2
         version: 0.45.2
       hono:
-        specifier: 4.12.22
-        version: 4.12.22
+        specifier: 4.12.23
+        version: 4.12.23
       i18next:
         specifier: ^26.3.0
         version: 26.3.0
@@ -1017,8 +1017,8 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  hono@4.12.22:
-    resolution: {integrity: sha512-7fvVPbB92zNRsQke+uiRGwtTuef0tB2Dg4hWxYfFNvkQhIltWoyi0ONReM5LWA+jJWS3nfT5lTq+qbsIpX0IQw==}
+  hono@4.12.23:
+    resolution: {integrity: sha512-eIaZ9qDgu7XV0pxOCrg7/WhnQ6Ivm22UcxhXx/A3dcbqbbYgBEkc6e/J/s7j2tS96zoB0S9VBdLwQNCWwUo4LA==}
     engines: {node: '>=16.9.0'}
 
   html-escaper@3.0.3:
@@ -2307,7 +2307,7 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  hono@4.12.22: {}
+  hono@4.12.23: {}
 
   html-escaper@3.0.3: {}
 
